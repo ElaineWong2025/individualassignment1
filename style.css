@@ -1,0 +1,133 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: linear-gradient(to bottom right, #ffe0ec, #e0f7ff);
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 30px 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #a85d84;
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #f8dbe2;
+  padding: 10px 0;
+  gap: 15px;
+}
+
+nav a {
+  background-color: #fff;
+  color: #a85d84;
+  padding: 10px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #ffd2e0;
+}
+
+/* Main Content */
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  background-color: #fffafc;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Headings */
+h2, h3 {
+  color: #7766c6;
+}
+
+/* Paragraphs */
+p {
+  font-size: 1rem;
+  margin: 10px 0 20px;
+}
+
+/* Ordered List */
+ol {
+  padding-left: 20px;
+  background-color: #f4f1ff;
+  border-left: 5px solid #c8b5ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+ol li {
+  margin-bottom: 15px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid #f2dfff;
+  text-align: left;
+}
+
+th {
+  background-color: #f4ddff;
+  color: #5b3a6b;
+}
+
+/* Image */
+.photo {
+  text-align: center;
+  padding: 2rem;
+}
+
+.photo h2 {
+  font-size: 24px;
+  color: #6b5b95; /* pastel purple */
+  margin-bottom: 1rem;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.photo-grid img {
+  width: 250px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.photo-grid img:hover {
+  transform: scale(1.05);
+}
+
